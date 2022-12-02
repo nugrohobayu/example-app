@@ -7,8 +7,14 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Hello</h1>
-  
+  <div class="flex ">
+    <app-sidebar class="w-[20%]"></app-sidebar>
+    <div class="ml-4 w-[70%]">
+      <div class="text-xl font-bold h-16 mt-5">Data Produk</div>
+      <button class="bg-green-600 text-white rounded-md mb-2 p-2">Add Product</button>
+      <app-table></app-table>
+    </div>
+  </div>
+  <!-- <app-navbar></app-navbar> -->
 </body>
 </html>
-<router-outlet></router-outlet>
